@@ -1,0 +1,12 @@
+
+
+
+nav > ol {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: lightgray;
+}
+
+td > a {
+    margin-right: 0.5rem;
+}
