@@ -4,8 +4,8 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable, throwError } from "rxjs";
 import { map, catchError, flatMap } from "rxjs/operators";
 
-import { Category } from "../../shared/category.model";
-import { element } from "protractor";
+import { Category } from "./category.model";
+
 
 @Injectable({
   providedIn: "root",
