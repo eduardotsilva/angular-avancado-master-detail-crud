@@ -13,7 +13,7 @@ export class InMemoryDataBase implements InMemoryDbService {
             {   id: 5, name:"Freelas", description: "Trabalhos como freelancer"}
         ];
 
-        return { categories}
+        return { categories }
     }
 
 
