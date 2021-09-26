@@ -29,6 +29,15 @@ export class EntryFormComponent implements OnInit, AfterContentChecked {
   entry: Entry = new Entry();
   category: Category = new Category();
 
+  // imaskConfig = {
+  //   mask: Number,
+  //   scale: 2,
+  //   thousandSeparator: '',
+  //   padFractionZeros: true,
+  //   normalizeZeros: true,
+  //   radix: ','
+  // };
+
   constructor(
     private entryService: EntryService,
     private activatedRoute: ActivatedRoute,

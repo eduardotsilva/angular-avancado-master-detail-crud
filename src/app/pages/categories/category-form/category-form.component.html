@@ -1,9 +1,7 @@
 <nav class="mb-5">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item">
-      <a routerLink="/">Home</a>
-    </li>
-    <li class="breadcrumb-item">Categorias</li>
+    <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+    <li class="breadcrumb-item"><a routerLink="/categories">Categorias</a></li>
     <li class="breadcrumb-item active">{{pagTitle}}</li>
   </ol>
 </nav>
@@ -25,7 +23,7 @@
     <div class="card-header">Informações sobre a categoria</div>
 
     <div class="card-body">
-      <div class="form-row">
+      <div class="row">
         <div class="form-group col-md-4">
           <label for="name">Nome</label>
           <input type="text" class="form-control" id="name" formControlName="name"/>
